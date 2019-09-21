@@ -1,0 +1,81 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat";
+}
+
+
+/*************navbar**************/
+.container-fluid{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.navbar-brand{
+	font-family: 'Charm', cursive;
+	font-size: 2.5rem;
+	font-weight: bold;
+	
+}
+.nav-item{
+	padding: 0 18px;
+}
+.nav-link{
+	font-size: 1.2rem;
+	font-family: "Montserrat-light";
+}
+
+
+/**************content section****************/
+.content_container{
+	margin-top: 8%;
+	margin-bottom: 5%;
+}
+
+.custom_card_body{
+	padding: 0.5rem;
+}
+
+/********************footer**************************/
+#footer{
+	padding: 0% 15%;
+	text-align: center;
+	background-color:#eaeaea;
+}
+#footer p{
+	margin-top: 0.75rem;
+    margin-bottom: 0;
+}
+
+.social_icon{
+	margin: 7px 7px;
+	font-size: 2em;
+}
+
+#fb{
+color: darkblue;
+}
+
+#twitter{
+	color: darkcyan;
+}
+
+
+/*****************login page******************/
+form.custom_form{
+	max-width: 40%;
+    margin: 0 auto;
+}
+
+/*******************registration*********************/
+
+
+
+/*******************media query*******************/
+@media (max-width: 991px){
+	.container{
+		padding: 3% 0;
+		text-align: center;
+		
+	}
+}
